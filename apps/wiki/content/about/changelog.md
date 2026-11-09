@@ -10,35 +10,35 @@ Quorum has no versions. It changes all the time, and this page lists the latest 
 
 ## Friday, 6 November 2026
 
-10 changes.
+43 changes.
 
-- Run the slow whole-game simulation tests only under FULL_TESTS ([1b81f86](https://github.com/elianiva/quorum/commit/1b81f864a2853bbb8dce5702c880f210dbeb05f1))
-- Fix audit gaps: Anycast and HTTP/2, recipes, How to play, loop practice ([cfb0fcb](https://github.com/elianiva/quorum/commit/cfb0fcbdda66048ca0ac1135ff3e796ebb4457d3))
-- Correct docs and component pages to the real UI and mitigations ([bf9c36a](https://github.com/elianiva/quorum/commit/bf9c36a88333e7116fc8239f2f475b3cf64648e1))
-- Add the Play the game section with practice boards ([b1c044e](https://github.com/elianiva/quorum/commit/b1c044e350e3a166f5a6980e32ac899479d2dcbe))
-- Let the player restart, fail over, throttle reconnects and move login ([6fbd59b](https://github.com/elianiva/quorum/commit/6fbd59b944b31d2f56d55ab4542c03cda5a542a8))
-- [5 more](/about/changelog/all#friday-6-november-2026)
+- Check the one-file-per-Component layout ([4e8ce4b](https://github.com/elianiva/quorum/commit/4e8ce4b72b0d61da0575409bc522c4addcd25f71))
+- Split the inspector into one panel file per Component ([8422e5a](https://github.com/elianiva/quorum/commit/8422e5a6c2271902d62420d578c7b37efe8edf2f))
+- Give each Component its board view in its own file ([99f0662](https://github.com/elianiva/quorum/commit/99f066233a502d048a66c1e6833359c9a1649a24))
+- Move single-owner actions and model code into each Component's rule file ([dd6dc3b](https://github.com/elianiva/quorum/commit/dd6dc3b087c87cd7209ff5638beb8f321cd2d011))
+- Move saved fields, constants, and glossary entries into each Component's file ([33f2118](https://github.com/elianiva/quorum/commit/33f2118c8c3bac9fe9f3fe73ddb8abf484ccce4e))
+- [38 more](/about/changelog/all#friday-6-november-2026)
 
 ## Thursday, 5 November 2026
 
 42 changes.
 
-- Build the runtime, framework and data-tier mechanics the design names and retire the remaining gap notes: libuv pool, recycled workers, runtime incidents, framework effects, durability, gateway options, GPU models, consistent hash, dominance test ([0d03e1d](https://github.com/elianiva/quorum/commit/0d03e1d881c45561bd7f8921e172d44ae93161d4))
-- Build the Observability, Incidents, Exit, Interface and Mail gaps and retire the gap lists: Service filter, alert rules, Era marks, slow start, Autopilot, Head start, Shared tenancy, Venture rules, spam filter, backdoor, vendor demos, second provider ([00b9e94](https://github.com/elianiva/quorum/commit/00b9e94fa7651df6658061793b267237fa295907))
-- Build the Components and Data tier gaps: sticky sessions, CDN purge and key, shard keys, sync replicas, Search and Object Storage options, stampede options, data volume time, per-request prices ([068397c](https://github.com/elianiva/quorum/commit/068397cda8a20b2f075bcb26200e1ab7bde543b3))
-- Build the Features and Team gaps: market cap, engineering tasks, auth and engine moves, SOC 2 staffing ([95d16d4](https://github.com/elianiva/quorum/commit/95d16d465ffc0556a45425e0b8a85be4d923a0b4))
-- Move the simulation tests and fixtures out of src ([b3cc3f4](https://github.com/elianiva/quorum/commit/b3cc3f496493f0cdab69aa9b820d8859c9f57d4c))
+- Build the runtime, framework and data-tier mechanics the design names and retire the remaining gap notes: libuv pool, recycled workers, runtime incidents, framework effects, durability, gateway options, GPU models, consistent hash, dominance test ([588eaf6](https://github.com/elianiva/quorum/commit/588eaf6e294a2a64c5eeffb2453de2ddabf7a708))
+- Build the Observability, Incidents, Exit, Interface and Mail gaps and retire the gap lists: Service filter, alert rules, Era marks, slow start, Autopilot, Head start, Shared tenancy, Venture rules, spam filter, backdoor, vendor demos, second provider ([4fd2a3a](https://github.com/elianiva/quorum/commit/4fd2a3ae7d1d10fd250ea644303f7e23e5242134))
+- Build the Components and Data tier gaps: sticky sessions, CDN purge and key, shard keys, sync replicas, Search and Object Storage options, stampede options, data volume time, per-request prices ([003fd59](https://github.com/elianiva/quorum/commit/003fd59b5f122da32d9c4418d841e49f4c425d91))
+- Build the Features and Team gaps: market cap, engineering tasks, auth and engine moves, SOC 2 staffing ([88e315b](https://github.com/elianiva/quorum/commit/88e315b95f4765f27c67f1d74341cbbec54ee297))
+- Move the simulation tests and fixtures out of src ([3c2b2b8](https://github.com/elianiva/quorum/commit/3c2b2b875733d07e053a3e9516234c9632219ff9))
 - [37 more](/about/changelog/all#thursday-5-november-2026)
 
 ## Wednesday, 4 November 2026
 
 58 changes.
 
-- Implement pricing, achievements, mail actions, and Dashboard rows ([565e9e5](https://github.com/elianiva/quorum/commit/565e9e5362a52aa22779f7c7bc33a354be9afe1e))
-- Buy ten sizes at once, or up to the largest ([fc1541c](https://github.com/elianiva/quorum/commit/fc1541c127fa06596e5a28cc28b9cee59b91e7af))
-- Add the Cost panel, splitting Burn into its lines ([ad30594](https://github.com/elianiva/quorum/commit/ad305940bf4dbe5d6f0489902032e5b2a435ea2d))
-- Name the Challenge ruleset and drop the unused design indexes ([4ad8191](https://github.com/elianiva/quorum/commit/4ad81915b561d4ee8cd3ff1c5f52a33a701204e9))
-- Move the design document into the wiki ([f97f6cf](https://github.com/elianiva/quorum/commit/f97f6cf0083636afd402b851a65092f456b1466a))
+- Implement pricing, achievements, mail actions, and Dashboard rows ([5c0c0e7](https://github.com/elianiva/quorum/commit/5c0c0e7cea16c9a2f192682a414467e39c755c31))
+- Buy ten sizes at once, or up to the largest ([e8870b3](https://github.com/elianiva/quorum/commit/e8870b3d982413f4b2e66994935485e5073567eb))
+- Add the Cost panel, splitting Burn into its lines ([b8cb017](https://github.com/elianiva/quorum/commit/b8cb01792bba1897b5de59c5258e7b2c7de4a7a2))
+- Name the Challenge ruleset and drop the unused design indexes ([b706e4e](https://github.com/elianiva/quorum/commit/b706e4e70c4fb9b89f68f144c22bad30e40cbeb9))
+- Move the design document into the wiki ([8359e44](https://github.com/elianiva/quorum/commit/8359e44c17b160a9396d407963c50457e6fd3dd6))
 - [53 more](/about/changelog/all#wednesday-4-november-2026)
 
 ## Tuesday, 3 November 2026
