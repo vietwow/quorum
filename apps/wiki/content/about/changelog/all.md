@@ -9,6 +9,17 @@ toc: top
 
 Every day that changed Quorum, newest first. The [changelog](/about/changelog) shows only the latest days.
 
+## Wednesday, 25 November 2026
+
+### Changed
+
+- Name regions and pricing by their generated ids ([09aeaae](https://github.com/elianiva/quorum/commit/09aeaae534f012f89b1cace6a3b6d7cf234e9e50))
+- Fix the qmc review findings and validate research ids ([19362f1](https://github.com/elianiva/quorum/commit/19362f173d2339e046cc9e8aa620bd63bc74e611))
+- Move the catalog types and ids into qmc ([0863e1d](https://github.com/elianiva/quorum/commit/0863e1d82293ab4a2e6212cc427a3f9fc11375b7))
+- Write the catalog in Lisp and compile it with qmc ([bbfaf6c](https://github.com/elianiva/quorum/commit/bbfaf6ccbcba4c0ed8a7282cd56d511b6025616e))
+- Hang Settings from its own line and frame each new menu column in full ([6c2f4e8](https://github.com/elianiva/quorum/commit/6c2f4e8e04c41834a7523a5d41579a4b31d6e57c))
+- Give every Sandbox Easy mode's pause and speed controls ([ecccd2a](https://github.com/elianiva/quorum/commit/ecccd2a99fcf990ea7bd4b0b71663470dea88d3e))
+
 ## Monday, 23 November 2026
 
 ### Changed
