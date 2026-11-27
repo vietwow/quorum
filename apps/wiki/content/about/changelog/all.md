@@ -9,6 +9,12 @@ toc: top
 
 Every day that changed Quorum, newest first. The [changelog](/about/changelog) shows only the latest days.
 
+## Thursday, 26 November 2026
+
+### Changed
+
+- Add the changelog entry for 2026-11-25 (#70) ([f06cf4a](https://github.com/elianiva/quorum/commit/f06cf4a2dbaeedea4ecff24c8ebeb189509be070))
+
 ## Wednesday, 25 November 2026
 
 ### Changed
